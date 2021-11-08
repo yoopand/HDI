@@ -3,7 +3,7 @@ library(shinythemes)
 library(plotly)
 
 
-setwd("C:\\Users\\korawik\\Desktop\\MED-3\\Datviz\\HDI\\HDI datasets\\")
+#setwd("C:\\Users\\korawik\\Desktop\\MED-3\\Datviz\\HDI\\HDI datasets\\")
 
 HDI <- read.csv('HDI_total_edit.csv',header = TRUE)
 income <- read.csv('HDI_Income.csv',header = TRUE)
